@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
+import {products} from './db.json'
 import './App.css';
-import {toggle, getProducts, addToCart, calculateTotal, removeItem} from './Logic/logic'
+import {toggle,  addToCart, calculateTotal, removeItem} from './Logic/logic'
 
 import Item from './Components/Item';
 import Cart from './Components/Cart';
