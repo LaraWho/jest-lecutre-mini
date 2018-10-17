@@ -4,9 +4,6 @@ const logic = {
   toggle(value) {
     return !value;
   },
-  getProducts() {
-    return axios.get('http://localhost:4000/products');
-  },
   addToCart(cart, product) {
     const productToAdd = { ...product };
     let newCart = [...cart];

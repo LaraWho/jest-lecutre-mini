@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
+import {products} from './db.json';
 import './App.css';
-import {toggle, getProducts, addToCart, calculateTotal, removeItem} from './Logic/logic'
+import {toggle, addToCart, calculateTotal, removeItem} from './Logic/logic'
 
 import Item from './Components/Item';
 import Cart from './Components/Cart';
@@ -12,17 +13,11 @@ class App extends Component {
 
     this.state = {
       cart: [],
-      products: [],
+      products: products,
       total: 0.00,
       tax: 0,
       showCart: false,
     };
-  }
-
-  componentDidMount() {
-    getProducts().then(res => {
-      this.setState({products: res.data})
-    })
   }
 
   addToCart = (itemToAdd) => {
@@ -48,6 +43,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state)
     return (
       <div className="App">
         <header>

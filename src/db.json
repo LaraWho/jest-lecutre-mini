@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product": "Bread",
+      "price": 9.41,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81CIuhA64VL._SX466_.jpg"
+    },
+    {
+      "id": 2,
+      "product": "Banana",
+      "price": 3.73,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71rS3SfamfL._SX466_.jpg"
+    },
+    {
+      "id": 3,
+      "product": "Egg",
+      "price": 2.54,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/613JJd0JsPL._SX466_.jpg"
+    },
+    {
+      "id": 4,
+      "product": "Avocado",
+      "price": 4.63,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/713Bn74qCCL._SX466_.jpg"
+    },
+    {
+      "id": 5,
+      "product": "Bacon",
+      "price": 3.05,
+      "image": "https://www.seriouseats.com/images/2012/12/20121203-gift-guide-plushes-talking-bacon.jpg"
+    },
+    {
+      "id": 6,
+      "product": "Sushi",
+      "price": 8.97,
+      "image": "http://www.fireworksgallery.net/istarimages/mp/102901!SQUI-31810_d.jpg"
+    },
+    {
+      "id": 8,
+      "product": "Tomato",
+      "price": 5.04,
+      "image": "https://i.pinimg.com/originals/6d/3d/f2/6d3df2af23f9a2b1649d5c802b858780.jpg"
+    },
+    {
+      "id": 9,
+      "product": "Pineapple",
+      "price": 97.28,
+      "image": "https://www.5littlemonkeys.com/media/catalog/product/cache/1/image/363x/040ec09b1e35df139433887a97daa66f/pineapple-pillow-15-12518_1.jpg"
+    },
+    {
+      "id": 10,
+      "product": "Croissant",
+      "price": 8.34,
+      "image": "http://www.squishable.com/mm5/graphics/00000001/comfortfood_croissant.jpg"
+    },
+    {
+      "id": 11,
+      "product": "Ravioli",
+      "price": 2.05,
+      "image": "https://i.pinimg.com/originals/ce/e7/9b/cee79b7c0870efaeea3b729a0dbcb3bc.jpg"
+    },
+    {
+      "id": 12,
+      "product": "Pizza",
+      "price": 8.31,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/914CQzTxidL._SX466_.jpg"
+    },
+    {
+      "id": 13,
+      "product": "Pickles",
+      "price": 4.17,
+      "image": "https://img.izismile.com/img/img2/20090915/bonus//10/plush_food_03.jpg"
+    },
+    {
+      "id": 14,
+      "product": "Pretzel",
+      "price": 4.79,
+      "image": "http://www.squishable.com/mm5/graphics/00000001/comfortfood_pretzel.jpg"
+    },
+    {
+      "id": 15,
+      "product": "Pancakes",
+      "price": 3.14,
+      "image": "http://www.squishable.com/mm5/graphics/00000001/comfortfood_pancakes_118803.jpg"
+    }
+  ]
+}

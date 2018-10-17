@@ -22,20 +22,6 @@ describe('Tests Toggle Show button', () => {
   });
 });
 
-describe('Can Get products from Server', () => {
-  test('Gets status 200', () =>
-    getProducts().then(res => {
-      expect(res.status).toBe(200);
-    }));
-  test('gets an array from the server', () =>
-    getProducts().then(res => {
-      expect(Array.isArray(res.data)).toBe(true);
-    }));
-  test('all items have desired properties', () =>
-    getProducts().then(res => {
-      expect(res.data[0]).toEqual(product);
-    }));
-});
 
 describe('Can add item to cart', () => {
   let cart = [];
