@@ -14,10 +14,10 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"json-server db.json -p 4000\"",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "testWatch": "jest --watchAll",
+    "testWatch": "jest --watch",
     "eject": "react-scripts eject"
   }
 }
