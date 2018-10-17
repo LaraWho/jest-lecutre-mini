@@ -19,10 +19,6 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
-    //Build Logic for this
-  }
-
   addToCart = (itemToAdd) => {
     //Build Logic for this
   }

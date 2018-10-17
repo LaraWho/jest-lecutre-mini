@@ -4,9 +4,6 @@ const logic = {
   toggle() {
     // Build me!
   },
-  getProducts() {
-    // Build me!
-  },
   addToCart() {
     // Build me!
   },

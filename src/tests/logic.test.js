@@ -9,8 +9,6 @@ const product = {
 
 describe('Tests Toggle Show button', () => {});
 
-describe('Can Get products from Server', () => {});
-
 describe('Can add item to cart', () => {});
 
 describe('can calculate sub total', () => {});
