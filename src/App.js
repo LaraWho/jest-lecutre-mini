@@ -13,7 +13,7 @@ class App extends Component {
 
     this.state = {
       cart: [],
-      products: [],
+      products: products,
       total: 0.00,
       tax: 0,
       showCart: false,
@@ -28,7 +28,7 @@ class App extends Component {
     //Build Logic for this
   }
 
-  calculateTotal(cart) {
+  calculateTotal = (cart) => {
     //Build Logic for this
   }
 
@@ -36,7 +36,7 @@ class App extends Component {
     //Build Logic for this
   }
 
-  renderProducts(products) {
+  renderProducts = (products) => {
     return products.map(product => <Item key={product.id} product={product} addToCart={this.addToCart} />);
   }
 
