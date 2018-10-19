@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
 import {products} from './db.json'
 import './App.css';
-import {toggle,  addToCart, calculateTotal, removeItem} from './Logic/logic'
+//You will need to require in the functions for this project here
+import {} from './Logic/logic'
 
 import Item from './Components/Item';
 import Cart from './Components/Cart';
@@ -14,26 +15,29 @@ class App extends Component {
     this.state = {
       cart: [],
       products: products,
-      total: 0.00,
-      tax: 0,
+      total: '0.00',
       showCart: false,
     };
   }
 
   addToCart = (itemToAdd) => {
-    //Build Logic for this
+    //Build Logic for this then implement it here
+    //  Look into setState callback function.
+    //  Run this.calculateTotal after each setState so the total is accurate
   }
 
   showCart = () => {
-    //Build Logic for this
+    //Build Logic for this then implement it here
   }
 
   calculateTotal = (cart) => {
-    //Build Logic for this
+    //Build Logic for this then implement it here
   }
 
   removeItem = (id) => {
-    //Build Logic for this
+    //Build Logic for this then implement it here
+    //  Look into setState callback function.
+    //  Run this.calculateTotal after each setState so the total is accurate
   }
 
   renderProducts = (products) => {
@@ -52,7 +56,7 @@ class App extends Component {
               <h1>CatBug Mart</h1>
             </div>
             <nav>
-              <li>Total: ${this.state.total}</li>
+              <li>Total: {this.state.total}</li>
               <FontAwesome name="shopping-cart" onClick={this.showCart} />
             </nav>
           </div>
