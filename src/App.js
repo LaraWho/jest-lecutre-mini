@@ -3,7 +3,7 @@ import FontAwesome from 'react-fontawesome';
 import {products} from './db.json'
 import './App.css';
 //You will need to require in the functions for this project here
-import {} from './Logic/logic'
+import { toggle, addToCart } from './Logic/logic'
 
 import Item from './Components/Item';
 import Cart from './Components/Cart';
@@ -21,13 +21,18 @@ class App extends Component {
   }
 
   addToCart = (itemToAdd) => {
+    this.setState({
+      cart: addToCart(this.state.cart, itemToAdd)
+    })
     //Build Logic for this then implement it here
     //  Look into setState callback function.
-    //  Run this.calculateTotal after each setState so the total is accurate
+    //  Run this.calculateTotal after each setState so the //total is accurate
   }
 
   showCart = () => {
-    //Build Logic for this then implement it here
+    this.setState({
+      showCart: toggle(this.state.showCart)
+    })
   }
 
   calculateTotal = (cart) => {
